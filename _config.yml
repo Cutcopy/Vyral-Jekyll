@@ -30,3 +30,14 @@ exclude:
 sass:
   sass_dir: _sass
   style: :nested
+
+# Navigation
+navigation:
+ - title: Home
+   url: /index.html
+ - title: Projects
+   url: /projects.html
+ - title: About
+   url: /about.html
+ - title: Contact
+   url: /contact.html

@@ -20,7 +20,6 @@
     "tests"
   ],
   "devDependencies": {
-    "bootstrap": "~3.3.6",
-    "foundation-sites": "~6.0.4"
+    "bootstrap": "~3.3.6"
   }
 }
