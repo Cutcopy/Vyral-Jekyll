@@ -5,12 +5,23 @@
 
 $grid-overlay: "true"
 
-.col
-  background: transparentize(pink, 0.5)
+// .col
+//   background: transparentize(pink, 0.5)
 
 $main-width: 1200px
+$border-radius: 5px
+$nav-height: 1rem
+//colors
 
+$brand: #b40101
+$brand-light: lighten($brand, 20%)
+$brand-dark: darken($brand, 20%)
+
+$hf-color: #323232
+$hf-hover: lighten($hf-color, 20%)
+$hf-text-color: white
 
 @import "base"
 @import "toast"
+@import "nav"
 @import "header"

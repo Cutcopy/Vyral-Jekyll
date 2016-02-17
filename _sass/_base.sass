@@ -1,5 +1,5 @@
 \:root
-  font-size: 15px
+  font-size: 1vw
 
 *
   box-sizing: border-box
@@ -12,6 +12,32 @@ body
   width: 100%
   max-width: $main-width
   margin: 0 auto
+
+main, aside
+  padding: 0.66rem
+
+button, input[type="submit"], .button
+  display: inline-block
+  padding: 0.5rem
+  color: $hf-text-color
+  text-decoration: none
+  text-shadow: 0 0 2px $brand-dark
+  background: linear-gradient($brand, $brand-dark)
+  border-radius: $border-radius
+  border: 1px solid $brand-dark
+
+/* utilities */
+
+// for screen readers
+.sr-only
+  position: absolute
+  width: 1px
+  height: 1px
+  padding: 0
+  margin: -1px
+  overflow: hidden
+  clip: rect(0,0,0,0)
+  border: 0
 
 // .row
 //   margin: 10px auto
