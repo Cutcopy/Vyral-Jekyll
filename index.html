@@ -1,23 +1,45 @@
 ---
 layout: default
 ---
+<div class="row">
+  <div class="col col--8-of-12">
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-<div class="home">
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </li>
+      {% endfor %}
+    </ul>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
+  <aside class="col col--4-of-12">
+    <h2>About</h2>
+    <div class="headshot"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ut iure deleniti ex, nobis, vero dolorum reiciendis animi sapiente quibusdam quaerat, fugit minima vitae? Non laudantium cupiditate nulla sint aut.</p>
+    <p>Voluptate sapiente, ipsum illo deleniti dolor, reprehenderit beatae officia eos et consectetur cumque veritatis deserunt. Quos autem sequi veritatis vitae fuga dolores quae quaerat neque maxime asperiores, eveniet velit odit.</p>
+    <a href="#" class="button">Yelp</a>
+    <a href="#" class="button">Zillow</a>
+    <a href="#" class="button">Trulia</a>
+    <a href="#" class="button">Subscrib to our podcast</a>
+    <strong>Client Name</strong>
+    <br>
+    Client Company
+    <address>
+      123 Fake St. Omaha, NE
+    </address>
+    <a href="#">1-234-567-8910</a>
+    <a href="#">Example@email.com</a>
+    <a href="#">Example.com</a>
+    <h2>Send us a message</h2>
+    <form action="">
+      <input type="text">
+      <textarea name="name"></textarea>
+      <input type="submit">
+    </form>
+  </aside>
 </div>

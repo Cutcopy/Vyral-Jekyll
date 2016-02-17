@@ -3,34 +3,14 @@
 ---
 @charset "utf-8"
 
-// Our variables
-$base-font-family: Helvetica, Arial, sans-serif
-$base-font-size:   14px
-$small-font-size:  $base-font-size * 0.875
-$base-line-height: 1.5
+$grid-overlay: "true"
 
-$spacing-unit:     30px
+.col
+  background: transparentize(pink, 0.5)
 
-$text-color:       #111
-$background-color: white
-$brand-color:      #2a7ae2
+$main-width: 1200px
 
-$grey-color:       #828282
-$grey-color-light: lighten($grey-color, 40%)
-$grey-color-dark:  darken($grey-color, 25%)
 
-$on-palm:          600px
-$on-laptop:        800px
-
-body
-  background: $background-color
-  font-size: $base-font-size
-// Import partials from `sass_dir` (defaults to `_sass`)
-//@import "foundation-sites/foundation-sites"
-
-.cta
-  background-color: $grey-color-dark
-
-footer
-  background: $grey-color-dark
-  color: white
+@import "base"
+@import "toast"
+@import "header"

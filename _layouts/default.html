@@ -5,35 +5,15 @@
 
   <body>
     <div class="container">
-        {% include nav.html %}
-        {% include header.html %}
-        {% include cta.html %}
-        <div class="row">
-            <div class="col-md-8">
-                {{content}}
-            </div>
-            <div class="col-md-4">
-                <img src="http://fillmurray.com/200/200" alt="" class="headshot">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum autem nisi itaque assumenda, iure laborum repudiandae molestias hic dicta explicabo neque totam odio ut provident natus odit quos doloremque distinctio.</p>
-                <p>Possimus aperiam sapiente veniam illum totam dicta numquam tempore, fugiat eos, illo aut quae voluptatum odit laudantium quod eligendi magni voluptas odio dolor consectetur fugit? Eaque nobis corporis sunt nihil!</p>
-                <a href="#" class="btn btn-danger">Yelp</a>
-                <a href="#" class="btn btn-info">Zillow</a>
-                <a href="#" class="btn btn-success">Trulia</a>
-                <address>
-                    Client Name
-                    <br>
-                    Client Business
-                    <br>
-                    123 Fake St.
-                    Chricago Il. 60652
-                    <br>
-                    <a href="">555-555-5555</a>
-                    <br>
-                    <a href="mailto:someone@email.com">Someone@email.com</a>
-                </address>
-            </div>
-        </div>
-        {% include footer.html %}
-    </div>
+      {% include header.html %}
+
+      <main>
+          {{ content }}
+      </main>
+
+      {% include footer.html %}
+    </div> <!-- container -->
   </body>
+
+
 </html>
