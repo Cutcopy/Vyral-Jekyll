@@ -1,5 +1,5 @@
 #hero
-  height: 70vh
+  height: 500px
   max-height: 500px
   background-image: url(/img/roger-dean.jpg)
   background-size: cover
@@ -49,3 +49,43 @@
   width: 100%
   display: block
   margin: 0 auto
+
+.booster-gold
+  width: 100%
+  input[type="text"]
+    margin-right: 0
+    padding: 0.5em
+    position: relative
+    left: 9px
+    //bottom: 1px
+    background: rgba(0,0,0,0)
+    border: 1px solid white
+    border-radius: 5px 0 0 5px
+    color: white
+    width: 30%
+    &:focus
+      border: 1px solid $brand
+      outline: none
+    &::-webkit-input-placeholder
+      color: white
+    &:-moz-placeholder
+      color:    white
+      opacity:  1
+    &::-moz-placeholder
+      color:   white
+      opacity:  1
+    &:-ms-input-placeholder
+      color:    white
+    &:placeholder-shown
+      color:   white
+  input[type="submit"]
+    width: 10%
+    background: white
+    margin-left: 0
+    color: $brand
+    //padding: 8px
+    text-align: center
+    border: 0px solid white
+    border-radius: 0 5px 5px 0
+    font-weight: bold
+    text-shadow: 0 0 0 black
