@@ -1,13 +1,15 @@
-nav.row
-  margin-left: 0
-
 #top-nav
   background-color: $hf-color
+  position: fixed
+  z-index: 5
+  width: 100%
+  box-shadow: 0px 1px 3px black
 
 .nav-links, .socials
   list-style-type: none
   margin-top: $nav-height
   margin-bottom: $nav-height
+  text-transform: capitalize
   li
     display: inline-block
     a
@@ -16,3 +18,5 @@ nav.row
       padding: $nav-height $nav-height/2
       &:hover
         background: $hf-hover
+.socials
+  text-align: right
