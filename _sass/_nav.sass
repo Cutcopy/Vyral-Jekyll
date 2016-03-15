@@ -1,9 +1,8 @@
 #top-nav
-  background-color: $hf-color
   position: fixed
   z-index: 5
   width: 100%
-  box-shadow: 0px 1px 3px black
+  @include timing
 
 .nav-links, .socials
   list-style-type: none
@@ -19,7 +18,14 @@
       text-decoration: none
       padding: $nav-height $nav-height/2
       &:hover
-        background: $hf-hover
+        color: $brand
+
+.nav-inverse
+  background-color: $hf-color
+  @include box-shadow
+  a:hover
+    background: $hf-hover
+    color: white !important
 
 .socials
   text-align: right
