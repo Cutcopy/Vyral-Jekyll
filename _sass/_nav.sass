@@ -10,6 +10,8 @@
   margin-top: $nav-height
   margin-bottom: $nav-height
   text-transform: capitalize
+  .fa
+    @include size(20px)
   li
     display: inline-block
     a
@@ -18,5 +20,8 @@
       padding: $nav-height $nav-height/2
       &:hover
         background: $hf-hover
+
 .socials
   text-align: right
+  li
+    text-align: center

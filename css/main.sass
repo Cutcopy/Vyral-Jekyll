@@ -21,7 +21,20 @@ $hf-color: #323232
 $hf-hover: lighten($hf-color, 20%)
 $hf-text-color: white
 
+//Mixins
+@mixin box-shadow
+  box-shadow: 0px 2px 3px black
+
+@mixin timing
+  -webkit-transition: 0.3s
+  transition: 0.3s
+
+@mixin size($n)
+  height: $n
+  width: $n
+
 @import "base"
 @import "toast"
 @import "nav"
 @import "header"
+@import "posts"

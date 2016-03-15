@@ -17,6 +17,15 @@ body
 main, aside
   padding: 0.66rem
 
+a
+  color: $brand
+  text-decoration: none
+  @include timing
+  &:visited
+    color: $brand-dark
+  &:hover
+    color: $brand-light
+
 button, input[type="submit"], .button
   display: inline-block
   padding: 0.5rem
