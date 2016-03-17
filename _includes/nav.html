@@ -8,13 +8,16 @@
             <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
             {% endif %}
           {% endfor %}
+          {% for item in site.navigation %}
+            <li><a href="{{ item.url}}">{{ item.title}}</a></li>
+          {% endfor %}
         </ul>
         <ul class="col col--5-of-12 socials">
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="{{site.socials.facebook}}"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="{{site.socials.linkedin}}"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="{{site.socials.gplus}}"><i class="fa fa-google-plus"></i></a></li>
+          <li><a href="{{site.socials.youtube}}"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="{{site.socials.twitter}}"><i class="fa fa-twitter"></i></a></li>
           <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss"></i></a></li>
         </ul>
     </div>

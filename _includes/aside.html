@@ -3,26 +3,27 @@
   <div class="headshot"></div>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ut iure deleniti ex, nobis, vero dolorum reiciendis animi sapiente quibusdam quaerat, fugit minima vitae? Non laudantium cupiditate nulla sint aut.</p>
   <p>Voluptate sapiente, ipsum illo deleniti dolor, reprehenderit beatae officia eos et consectetur cumque veritatis deserunt. Quos autem sequi veritatis vitae fuga dolores quae quaerat neque maxime asperiores, eveniet velit odit.</p>
-  <a href="#" class="button">Yelp</a>
-  <a href="#" class="button">Zillow</a>
-  <a href="#" class="button">Trulia</a>
-  <a href="#" class="button">Subscrib to our podcast</a>
+  <a href="{{site.socials.yelp}}" class="button">Yelp</a>
+  <a href="{{site.socials.zillow}}" class="button">Zillow</a>
+  <a href="{{site.socials.Trulia}}" class="button">Trulia</a>
+  <a href="{{site.podcast}}" class="button">Subscrib to our podcast</a>
   <br>
-  <strong>Client Name</strong>
+  <strong>{{ site.client.name }}</strong>
   <br>
-  Client Company
+  {{ site.client.company }}
   <address>
-    123 Fake St. Omaha, NE
+    {{ site.client.address }}
   </address>
-  <a href="#">1-234-567-8910</a>
+  <a href="tel:{{site.client.phone}}">{{site.client.phone}}</a>
   <br>
-  <a href="#">Example@email.com</a>
+  <a href="mailto:{{site.client.email}}">{{site.client.email}}</a>
   <br>
-  <a href="#">Example.com</a>
-  <h2>Send us a message</h2>
+  <a href="{{site.client.url | prepend: 'http://'}}">{{site.client.url}}</a>
+  <h2>Ask us a Question</h2>
   <form action="">
-    <input type="text">
-    <textarea name="name"></textarea>
-    <input type="submit">
+    <input type="text" name="name">
+    <input type="email" name="email">
+    <textarea name="message"></textarea>
+    <input type="submit" value="submit">
   </form>
 </aside>

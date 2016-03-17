@@ -2,8 +2,9 @@
   height: 500px
   max-height: 500px
   background-image: url(/img/omaha.jpg)
-  background-position: center center
+  background-position: center -400px
   background-size: cover
+  background-repeat: no-repeat
   background-attachment: fixed
   padding: 2rem
   color: white
@@ -37,13 +38,19 @@
   color: white
   padding: 1rem
   border: 3px solid white
-  border-radius: $border-radius
+  border-radius: 2.2rem
   text-decoration: none
   font-size: 1rem
   font-weight: bold
   text-transform: uppercase
   letter-spacing: 1px
   @include box-shadow
+  &:visited
+    color: white
+  &:hover
+    background: $brand
+    border-color: $brand
+
   //background: transparentize($brand, 0.5)
 
 #banner-image
