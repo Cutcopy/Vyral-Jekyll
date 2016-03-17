@@ -3,22 +3,22 @@
   <div class="headshot" style="background-image: url({{page.client_photo_path}})"></div>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ut iure deleniti ex, nobis, vero dolorum reiciendis animi sapiente quibusdam quaerat, fugit minima vitae? Non laudantium cupiditate nulla sint aut.</p>
   <p>Voluptate sapiente, ipsum illo deleniti dolor, reprehenderit beatae officia eos et consectetur cumque veritatis deserunt. Quos autem sequi veritatis vitae fuga dolores quae quaerat neque maxime asperiores, eveniet velit odit.</p>
-  <a href="{{site.socials.yelp}}" class="button">Yelp</a>
-  <a href="{{site.socials.zillow}}" class="button">Zillow</a>
-  <a href="{{site.socials.Trulia}}" class="button">Trulia</a>
-  <a href="{{site.podcast}}" class="button">Subscrib to our podcast</a>
+  <a href="{{site.data.settings.socials.yelp}}" class="button">Yelp</a>
+  <a href="{{site.data.settings.socials.zillow}}" class="button">Zillow</a>
+  <a href="{{site.data.settings.socials.Trulia}}" class="button">Trulia</a>
+  <a href="{{site.data.settings.podcast}}" class="button">Subscrib to our podcast</a>
   <br>
-  <strong>{{ site.client.name }}</strong>
+  <strong>{{ site.data.settings.client.name }}</strong>
   <br>
-  {{ site.client.company }}
+  {{ site.data.settings.client.company }}
   <address>
-    {{ site.client.address }}
+    {{ site.data.settings.client.address }}
   </address>
-  <a href="tel:{{site.client.phone}}">{{site.client.phone}}</a>
+  <a href="tel:{{site.data.settings.client.phone}}">{{site.data.settings.client.phone}}</a>
   <br>
-  <a href="mailto:{{site.client.email}}">{{site.client.email}}</a>
+  <a href="mailto:{{site.data.settings.client.email}}">{{site.data.settings.client.email}}</a>
   <br>
-  <a href="{{site.client.url | prepend: 'http://'}}">{{site.client.url}}</a>
+  <a href="{{site.data.settings.client.url | prepend: 'http://'}}">{{site.data.settings.client.url}}</a>
   <h2>Ask us a Question</h2>
   <form action="">
     <input type="text" name="name">

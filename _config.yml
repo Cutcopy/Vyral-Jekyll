@@ -29,33 +29,3 @@ exclude:
 sass:
   sass_dir: _sass
   style: :nested
-
-#Client Shit
-client:
-  name: Joe Somebody
-  company: Castle Greyskull
-  address: 123 Fake St. Eternia, NE
-  phone: 1-234-567-8910
-  email: Someone@email.com
-  url: getvyral.com
-  eval: http://homeevaluation.com
-  search: http://homesearch.com
-
-socials:
-  facebook: http://facebook.com
-  linkedin: http://linkedin.com
-  gplus: http://plus.google.com
-  youtube: http://youtube.com
-  twitter: http://twitter.com
-  yelp: http://yelp.com
-  zillow: http://zillow.com
-  trulia: http://trulia.company
-
-podcast: http://itunes.com
-
-
-
-# Navigation
-navigation:
- - {title: Our Listings, url: /projects.html}
- - {title: Contact, url: /contact.html}
