@@ -1,3 +1,6 @@
+
+
+#Clients
 client:
   name: Joe Somebody
   company: Castle Greyskull
@@ -7,6 +10,15 @@ client:
   url: getvyral.com
   eval: 'http://homeevaluation.com'
   search: 'http://homesearch.com'
+
+#Navigation
+navigation:
+  - title: Our Listings
+    url: /projects.html
+  - title: Contact
+    url: /contact.html
+
+#Socials
 socials:
   facebook: 'http://facebook.com'
   linkedin: 'http://linkedin.com'
@@ -17,9 +29,5 @@ socials:
   zillow: 'http://zillow.com'
   trulia: 'http://trulia.company'
 podcast: 'http://itunes.com'
-navigation:
-  - title: Our Listings
-    url: /projects.html
-  - title: Contact
-    url: /contact.html
+
 hero_image_path: /img/Chicago_downtown.jpg
