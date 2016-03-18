@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Every Branch of the Ugly Tree
-date: 2015-11-30T15:30:13.000Z
+date: 2016-03-18T15:30:00.000Z
 categories: jekyll update
 image: /img/omaha.jpg
 ---
@@ -9,7 +9,7 @@ image: /img/omaha.jpg
 
 So much depends upon
 
-a red wheelbarrow.&nbsp;
+a red wheelbarrow.
 
 glazed with rain water.
 
