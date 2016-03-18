@@ -2,7 +2,7 @@
 layout: post
 title: Every Branch of the Ugly Tree
 date: 2016-03-18T15:30:00.000Z
-categories: jekyll update
+categories: Blog
 image: /img/omaha.jpg
 ---
 
