@@ -6,4 +6,11 @@ categories: jekyll update
 image: /img/omaha.jpg
 ---
 
-So much depends upon a red wheel barrow.
+
+So much depends upon
+
+a red wheelbarrow.&nbsp;
+
+glazed with rain water.
+
+beside the white chickens.
