@@ -1,12 +1,12 @@
 <aside class="col col--4-of-12">
   <h2>About</h2>
   <div class="headshot" style="background-image: url({{site.data.settings.client_photo_path}})"></div>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ut iure deleniti ex, nobis, vero dolorum reiciendis animi sapiente quibusdam quaerat, fugit minima vitae? Non laudantium cupiditate nulla sint aut.</p>
-  <p>Voluptate sapiente, ipsum illo deleniti dolor, reprehenderit beatae officia eos et consectetur cumque veritatis deserunt. Quos autem sequi veritatis vitae fuga dolores quae quaerat neque maxime asperiores, eveniet velit odit.</p>
-  <a href="{{site.data.settings.socials.yelp}}" class="button">Yelp</a>
-  <a href="{{site.data.settings.socials.zillow}}" class="button">Zillow</a>
-  <a href="{{site.data.settings.socials.Trulia}}" class="button">Trulia</a>
-  <a href="{{site.data.settings.podcast}}" class="button">Subscrib to our podcast</a>
+  <p class="editable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ut iure deleniti ex, nobis, vero dolorum reiciendis animi sapiente quibusdam quaerat, fugit minima vitae? Non laudantium cupiditate nulla sint aut.</p>
+  <p class="editable">Voluptate sapiente, ipsum illo deleniti dolor, reprehenderit beatae officia eos et consectetur cumque veritatis deserunt. Quos autem sequi veritatis vitae fuga dolores quae quaerat neque maxime asperiores, eveniet velit odit.</p>
+  <a href="{{site.data.settings.socials.yelp}}" class="button review yelp">Yelp</a>
+  <a href="{{site.data.settings.socials.zillow}}" class="button review zillow">Zillow</a>
+  <a href="{{site.data.settings.socials.Trulia}}" class="button review trulia">Trulia</a>
+  <a href="{{site.data.settings.podcast}}" class="button podcast">Subscribe to our podcast</a>
   <br>
   <strong>{{ site.data.settings.client.name }}</strong>
   <br>
@@ -20,10 +20,23 @@
   <br>
   <a href="{{site.data.settings.client.url | prepend: 'http://'}}">{{site.data.settings.client.url}}</a>
   <h2>Ask us a Question</h2>
-  <form action="">
-    <input type="text" name="name">
-    <input type="email" name="email">
-    <textarea name="message"></textarea>
-    <input type="submit" value="submit">
+
+  <!-- Contact Form -->
+  <form id="contact-form" method="post" action="http://vyralmarketing.com/staticforms/sendEmail.php" onsubmit="return setReturn()">
+  <input type="hidden" value="{{site.data.settings.client.email}}" name="emailTo" />
+  <p id="thanks"></p>
+  <div class="contact-info">
+  <input placeholder="Name*" type="text" name="name" required />
+  <input placeholder="Email*" type="Email" name="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required />
+  </div>
+  <textarea placeholder="Message*" name="message" required></textarea>
+  <input type="submit" value="Ask" name="submitContact" />
   </form>
+  <script>
+  function setReturn(){
+    localStorage.setItem("thanks", "Your Question was sent successfully!");
+    document.getElementById("thanks").innerHTML =    localStorage.getItem("thanks");
+    localStorage.clear();
+  }
+  </script>
 </aside>

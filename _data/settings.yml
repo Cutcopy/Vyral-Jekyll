@@ -22,10 +22,11 @@ socials:
   linkedin: 'http://linkedin.com'
   gplus: 'http://plus.google.com'
   youtube: 'http://youtube.com'
-  twitter: 'http://twitter.com'
+  twitter: 'https://twitter.com/losslessdesign'
   yelp: 'http://yelp.com'
   zillow: 'http://zillow.com'
   trulia: 'http://trulia.company'
 podcast: 'http://itunes.com'
 
 hero_image_path: /img/Chicago_downtown.jpg
+client_photo_path: http://fillmurray.com/300/300
