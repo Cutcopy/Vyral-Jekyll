@@ -12,7 +12,12 @@ layout: default
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
-          {{ post.excerpt }}
+          {{ post.excerpt | strip_html }}
+          {% if post.image %}
+          <img src="{{post.image}}" alt="" class="post-image" />
+          {% else %}
+          <img src="http://fillmurray.com/400/400" alt=""  class="post-image"/>
+          {% endif %}
         </li>
       {% endfor %}
     </ul>

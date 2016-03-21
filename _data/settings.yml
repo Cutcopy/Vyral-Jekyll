@@ -26,7 +26,7 @@ socials:
   yelp: 'http://yelp.com'
   zillow: 'http://zillow.com'
   trulia: 'http://trulia.com'
-podcast: 'http://itunes.com'
+  podcast: 'http://itunes.com'
 
 hero_image_path: /img/Chicago_downtown.jpg
 client_photo_path: http://fillmurray.com/300/300
