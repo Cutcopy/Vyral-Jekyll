@@ -1,7 +1,9 @@
 #Clients
 client:
+  market: Chicago
   name: Joe Somebody
   company: Castle Greyskull
+  Brokerage: Keller Williams Realty
   address: '123 Fake St. Eternia, NE'
   phone: 1-234-567-8910
   email: Someone@email.com
@@ -28,5 +30,17 @@ socials:
   trulia: 'http://trulia.com'
   podcast: 'http://itunes.com'
 
+#images
 hero_image_path: /img/Chicago_downtown.jpg
 client_photo_path: http://fillmurray.com/300/300
+
+#Podcast settings
+podcast:
+  title:          your-site-title
+  email:          your-podcast-contact-email
+  description:    "If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from {{site.data.settings.client.company}}- your professional {{site.data.settings.client.market}} Real Estate Agents."
+  subtitle:       "Learn all the tips, tricks and more for buyers and sellers in the {{site.data.settings.client.market}} Area Real Estate Market"
+  url:            {{site.baseurl}}
+  lang:           en
+  author:         {{site.data.settings.client.name}}
+  copyright:      "2016"
