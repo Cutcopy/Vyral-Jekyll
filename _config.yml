@@ -1,6 +1,9 @@
 # Site settings
 title: Chicago Real Estate Video Blog
 email: bryce@getvyral.com
+author:
+  name: Firstname Lastname
+  email: bryce@getvyral.com
 image: /img/vyral-icon.png
 fb-admins: 63206588
 description: A Blog for the real estates.
@@ -17,6 +20,8 @@ markdown: kramdown
 kramdown:
   input: GFM
 highlighter: rouge
+
+paginate: 5
 
 gems:
   - jemoji
