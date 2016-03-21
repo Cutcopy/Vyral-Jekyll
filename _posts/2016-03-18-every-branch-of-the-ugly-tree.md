@@ -7,9 +7,7 @@ image: /img/omaha.jpg
 ---
 
 
-So much depends upon
-
-a red wheelbarrow.
+So much depends upon a red wheelbarrow.
 
 glazed with rain water.
 

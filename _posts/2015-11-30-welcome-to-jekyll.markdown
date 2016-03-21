@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2015-11-30 15:30:13
-categories: jekyll update
+categories: Blog update
 ---
 Killer Croc Just Can't Stop. Stop till he drops. no no no.
 

@@ -11,7 +11,6 @@ url: "localhost:4000" # the base hostname & protocol for your site
 
 #Handling Reading
 encoding: "utf-8"
-markdown_ext: "markdown, md"
 
 # Build settings
 markdown: kramdown
