@@ -185,7 +185,7 @@ DEPENDENCIES
   guard-livereload
   jekyll-paginate
   octopress-autoprefixer
-  public_suffix (= 1.5.1)
+  public_suffix
   wdm
 
 BUNDLED WITH

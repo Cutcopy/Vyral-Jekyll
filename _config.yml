@@ -7,7 +7,7 @@ fb-admins: 63206588
 description: A Blog for the real estates.
 keywords: Junk, Culture, spit, steel
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "localhost:4000" # the base hostname & protocol for your site
+url: "http://giant-pepper.cloudvent.net/" # the base hostname & protocol for your site
 
 #Handling Reading
 encoding: "utf-8"

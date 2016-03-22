@@ -3,7 +3,11 @@ layout: default
 ---
 
 <div class="row">
+  {% if site.data.settings.sidecolumn == true %}
   <div class="col col--8-of-12">
+  {% else %}
+  <div class="col col--12-of-12">
+  {% endif %}
     <ul class="post-list">
       {% for post in site.posts %}
       <li>
@@ -23,7 +27,7 @@ layout: default
       </li>
       {% endfor %}
     </ul>
-  {% if paginator.total_posts > {{site.paginate}} %}
+    {% if paginator.total_posts > {{site.paginate}} %}
     <!-- Pagination links -->
       <div class="pagination">
         {% if paginator.previous_page %}
