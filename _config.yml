@@ -1,15 +1,16 @@
 # Site settings
 title: San Francisco Real Estate Video Blog
-email: bryce@getvyral.com
+email: someone@email.com
+author: Durwin Cheung
 image: /img/vyral-icon.png
 lang: en
 fb-admins: 63206588
 description: A Blog for the real estates.
 keywords: Junk, Culture, spit, steel
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://giant-pepper.cloudvent.net/" # the base hostname & protocol for your site
+url: "http://giant-pepper.cloudvent.net" # the base hostname & protocol for your site
 
-author: Durwin Cheung
+
 
 #Handling Reading
 encoding: "utf-8"
@@ -26,6 +27,7 @@ gems:
   - jemoji
   - octopress-autoprefixer
   - jekyll-paginate
+  - jekyll-sitemap
 # Excludes
 exclude:
   - node_modules

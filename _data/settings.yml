@@ -7,8 +7,8 @@ client:
   phone: 1-234-567-8910
   email: {{site.email}}
   url: getvyral.com
-  eval: 'http://homeevaluation.com'
-  search: 'http://homesearch.com'
+  eval: '#'
+  search: '#'
 
 VR_form: '#'
 

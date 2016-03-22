@@ -184,6 +184,7 @@ DEPENDENCIES
   guard-jekyll-plus
   guard-livereload
   jekyll-paginate
+  jekyll-sitemap
   octopress-autoprefixer
   public_suffix
   wdm
