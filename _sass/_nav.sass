@@ -3,6 +3,7 @@
   z-index: 5
   width: 100%
   @include timing
+  @include text-shadow
 
 .nav-links, .socials
   list-style-type: none
@@ -21,7 +22,7 @@
         color: $brand
 
 .nav-inverse
-  background-color: $hf-color
+  background-color: $transparent-black
   @include box-shadow
   a:hover
     background: $hf-hover
@@ -31,3 +32,8 @@
   text-align: right
   li
     text-align: center
+    svg
+      fill: white
+      -webkit-filter: drop-shadow(0 2px 2px black)
+      filter: drop-shadow(0 2px 2px black)
+      height: 1rem
