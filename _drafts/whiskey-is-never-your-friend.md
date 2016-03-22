@@ -6,3 +6,8 @@ tags:
   - Jekyll
   - news
 ---
+
+
+No matter how much you want it to be true, whiskey will never be your friend.&nbsp;
+
+Abusive boyfriend maybe, but never your friend.
