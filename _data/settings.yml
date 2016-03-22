@@ -38,4 +38,4 @@ podcast:
   author:
     '[object Object]': ''
   copyright: '2016'
-sidecolumn: false
+sidecolumn: true
