@@ -2,7 +2,10 @@
 layout: post
 title:  "What Do Current San Francisco Market Conditions Mean for You?"
 date:   2016-03-21 08:00:00 -0600
-categories: Blog Market-Update
+tags: [Market Update, Real Estate]
+excerpt: "It’s a pretty balanced market right now, but in most areas seller’s have a slight advantage.This time of year, inventory is typically quite low, so what we’re seeing now is pretty normal. You can expect to see more listings pop up in the early spring months."
+enclosure: https://s3.amazonaws.com/vyralmarketing/Durwin+Cheung/San+Francisco+Real+Estate+Agent+The+State+of+the+San+Francisco+Mark.mp4
+image: /img/Durwin_scn_sht.png
 ---
 
 <iframe id="video" width="652" height="367" src="https://www.youtube.com/embed/UsFNJnfG2xw" frameborder="0" allowfullscreen></iframe>
@@ -10,6 +13,14 @@ categories: Blog Market-Update
 **Are we currently in a buyer's or seller's market?** This is the question on everyone's mind, and today we'll answer it.
 
 It’s a pretty balanced market right now, but in most areas seller’s have a slight advantage. This time of year, inventory is typically quite low, so **what we’re seeing now is pretty normal**. You can expect to see more listings pop up in the early spring months.
+
+<div style="background-color: white; border: solid 1px #c9c9c9; display: block; margin: 0 auto; padding: 20px 10px; width: 80%; max-width: 500px;">
+<span style="color: #ff9f40; display: block; float: left; font-family: arial, sans-serif; font-size: 100px; line-height: 50px;">“</span><br>
+<div style="color: #3d3d3d; font-size: 20px; font-weight: bold; margin: 0 auto; padding: 0 30px 0 10px; text-align: center;">
+Our market is pretty balanced for now, but we’re unsure how much longer it will last.</div>
+<br>
+<span style="color: #ff9f40; display: block; float: right; font-family: arial, sans-serif; font-size: 100px; line-height: 50px;">”</span>
+</div>
 
 When inventory is low, home prices don’t fall. Right now, they are pretty stable in our area, which is good news for buyers. Also, interest rates are still quite low despite a slight hike in December. **This is great for buyers looking to make their dollar go further!**
 
