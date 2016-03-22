@@ -35,5 +35,7 @@ layout: default
       </div>
   {% endif %}
   </div>
-  {% include aside.html %}
+  {% if site.data.settings.sidecolumn == true %}
+    {% include aside.html %}
+  {% endif %}
 </div>

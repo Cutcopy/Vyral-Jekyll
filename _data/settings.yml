@@ -45,3 +45,5 @@ podcast:
   lang:           en
   author:         {{site.data.settings.client.name}}
   copyright:      "2016"
+
+sidecolumn: true  
