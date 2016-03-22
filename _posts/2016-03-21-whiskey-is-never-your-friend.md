@@ -5,6 +5,7 @@ date: 2016-03-21T20:30:00.000Z
 tags:
   - Jekyll
   - news
+  - JR Playboy
 image: /img/durwin_scn_sht.png
 enclosure:
 ---
