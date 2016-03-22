@@ -1,4 +1,3 @@
-#Clients
 client:
   market: Chicago
   name: Joe Somebody
@@ -10,15 +9,11 @@ client:
   url: getvyral.com
   eval: 'http://homeevaluation.com'
   search: 'http://homesearch.com'
-
-#Navigation
 navigation:
   - title: Our Listings
     url: /projects.html
   - title: Contact
     url: /contact.html
-
-#Socials
 socials:
   facebook: 'http://facebook.com'
   linkedin: 'http://linkedin.com'
@@ -29,21 +24,18 @@ socials:
   zillow: 'http://zillow.com'
   trulia: 'http://trulia.com'
   podcast: 'http://itunes.com'
-
-#images
 hero_image_path: /img/Chicago_downtown.jpg
 hero_logo_path: /img/Durwin_logo_white.png
-client_photo_path: http://fillmurray.com/300/300
-
-#Podcast settings
+client_photo_path: 'http://fillmurray.com/300/300'
 podcast:
-  title:          your-site-title
-  email:          your-podcast-contact-email
-  description:    "If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from {{site.data.settings.client.company}}- your professional {{site.data.settings.client.market}} Real Estate Agents."
-  subtitle:       "Learn all the tips, tricks and more for buyers and sellers in the {{site.data.settings.client.market}} Area Real Estate Market"
-  url:            {{site.baseurl}}
-  lang:           en
-  author:         {{site.data.settings.client.name}}
-  copyright:      "2016"
-
-sidecolumn: true  
+  title: your-site-title
+  email: your-podcast-contact-email
+  description: 'If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from {{site.data.settings.client.company}}- your professional {{site.data.settings.client.market}} Real Estate Agents.'
+  subtitle: 'Learn all the tips, tricks and more for buyers and sellers in the {{site.data.settings.client.market}} Area Real Estate Market'
+  url:
+    '[object Object]': ''
+  lang: en
+  author:
+    '[object Object]': ''
+  copyright: '2016'
+sidecolumn: false
