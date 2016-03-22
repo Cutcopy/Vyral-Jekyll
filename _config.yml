@@ -1,5 +1,5 @@
 # Site settings
-title: Chicago Real Estate Video Blog
+title: San Francisco Real Estate Video Blog
 email: bryce@getvyral.com
 image: /img/vyral-icon.png
 lang: en
@@ -8,6 +8,8 @@ description: A Blog for the real estates.
 keywords: Junk, Culture, spit, steel
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://giant-pepper.cloudvent.net/" # the base hostname & protocol for your site
+
+author: Durwin Cheung
 
 #Handling Reading
 encoding: "utf-8"

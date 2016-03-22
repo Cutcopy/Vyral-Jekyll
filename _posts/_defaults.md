@@ -5,5 +5,6 @@ date:
 tags:
 excerpt:
 enclosure:
+enclosure_time:
 image:
 ---

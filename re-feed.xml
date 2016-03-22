@@ -39,6 +39,7 @@ layout: null
 				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
 				<enclosure url="{{post.enclosure}}" length="0" type="video/mp4"/>
 				<itunes:author>{{ site.data.settings.podcast.author }}</itunes:author>
+				<itunes:duration>{{ post.enclosure_time }}</itunes:duration>
 				<itunes:subtitle>{{ site.data.settings.podcast.description}}</itunes:subtitle>
 				<itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
 				<itunes:keywords>{{ site.data.settings.keywords }}</itunes:keywords>

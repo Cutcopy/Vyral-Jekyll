@@ -5,10 +5,13 @@ client:
   Brokerage: Keller Williams Realty
   address: '123 Fake St. Eternia, NE'
   phone: 1-234-567-8910
-  email: Someone@email.com
+  email: {{site.email}}
   url: getvyral.com
   eval: 'http://homeevaluation.com'
   search: 'http://homesearch.com'
+
+VR_form: '#'
+
 navigation:
   - title: Our Listings
     url: /projects.html
@@ -30,16 +33,14 @@ client_photo_path: 'http://fillmurray.com/300/300'
 brand_color_hex: '#dd6b00'
 nav_color_rgb: 'rgba(0,0,0,0.7)'
 podcast:
-  title: your-site-title
-  email: your-podcast-contact-email
+  title: Chicago Real Estate Podcast
+  email: {{site.email}}
   description: 'If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from {{site.data.settings.client.company}}- your professional {{site.data.settings.client.market}} Real Estate Agents.'
   subtitle: 'Learn all the tips, tricks and more for buyers and sellers in the {{site.data.settings.client.market}} Area Real Estate Market'
-  url:
-    '[object Object]': ''
+  url: '{{site.url}}/{{post.url}}'
   lang: en
-  author:
-    '[object Object]': ''
-  copyright: '2016'
+  author: {{site.author}}
+  copyright: {{site.time | date: "%Y"}}
 
 #layout options
 sidecolumn: true
