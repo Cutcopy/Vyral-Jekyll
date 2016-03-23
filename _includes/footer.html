@@ -1,26 +1,25 @@
-<footer class="row">
-  <div class="col col--4-of-12">
-    <strong>{{site.data.settings.client.name}}</strong>
-    <br>
-    {{site.data.settings.client.company}}
-    <address>
-      {{ site.data.settings.client.address }}
-    </address>
-  </div>
+<footer>
+  <div class="row">
+    <div class="col col--4-of-12">
+      <strong>{{site.data.settings.client.name}}</strong>
+      <br> {{site.data.settings.client.company}}
+      <address>{{ site.data.settings.client.address }}</address>
+    </div>
 
-  <div class="col col--4-of-12">
-    <i class="fa fa-phone"></i><a href="tel:{{site.data.settings.client.phone}}">{{site.data.settings.client.phone}}</a>
-    <br>
-    <i class="fa fa-envelope"></i><a href="mailto:{{site.data.settings.client.email}}">{{site.data.settings.client.email}}</a>
-    <br>
-    <i class="fa fa-globe"></i><a href="{{site.data.settings.client.url | prepend: 'http://''}}">{{site.data.settings.client.url}}</a>
-  </div>
+    <div class="col col--4-of-12">
+      <i class="fa fa-phone"></i><a href="tel:{{site.data.settings.client.phone}}">{{site.data.settings.client.phone}}</a>
+      <br>
+      <i class="fa fa-envelope"></i><a href="mailto:{{site.data.settings.client.email}}">{{site.data.settings.client.email}}</a>
+      <br>
+      <i class="fa fa-globe"></i><a href="{{site.data.settings.client.url | prepend: 'http://''}}">{{site.data.settings.client.url}}</a>
+    </div>
 
-  <div class="col col--4-of-12">
-    <form action="#">
-      <input type="text">
-      <input type="submit">
-    </form>
+    <div class="col col--4-of-12">
+      <form action="#">
+        <input type="text">
+        <input type="submit">
+      </form>
+    </div>
   </div>
 </footer>
 &copy; 2016 Vyral Marketing

@@ -5,7 +5,7 @@ client:
   Brokerage: Keller Williams Realty
   address: '123 Fake St. Eternia, NE'
   phone: 1-234-567-8910
-  email: {{site.email}}
+  email: someone@email.com
   url: getvyral.com
   eval: '#'
   search: '#'
@@ -30,6 +30,20 @@ socials:
 hero_image_path: /img/Chicago_downtown.jpg
 hero_logo_path: /img/Durwin_logo_white.png
 client_photo_path: 'http://fillmurray.com/300/300'
+#fonts
+body_font:
+    - helvetica, sans-serif
+    - georgia, serif
+    - courier, mono
+    - fantasy
+#fonts
+header_font:
+    - helvetica, sans-serif
+    - georgia, serif
+    - courier, mono
+    - fantasy
+
+#colors
 brand_color_hex: '#dd6b00'
 nav_color_rgb: 'rgba(0,0,0,0.7)'
 podcast:
