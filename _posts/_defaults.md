@@ -5,6 +5,7 @@ date:
 tags:
 excerpt:
 enclosure:
-enclosure_time:
+enclosure_type: video/mp4
+enclosure_time: 
 image:
 ---

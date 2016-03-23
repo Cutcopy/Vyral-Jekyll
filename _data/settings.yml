@@ -35,14 +35,14 @@ client_photo_path: 'http://fillmurray.com/300/300'
 brand_color_hex: '#dd6b00'
 nav_color_rgb: 'rgba(0,0,0,0.7)'
 podcast:
-  title: Chicago Real Estate Podcast
-  email: {{site.email}}
-  description: 'If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from {{site.data.settings.client.company}}- your professional {{site.data.settings.client.market}} Real Estate Agents.'
-  subtitle: 'Learn all the tips, tricks and more for buyers and sellers in the {{site.data.settings.client.market}} Area Real Estate Market'
-  url: '{{site.url}}/{{post.url}}'
-  lang: en
-  author: {{site.author}}
-  copyright: {{site.time | date: "%Y"}}
+  title: San Francisco Real Estate Podcast
+  categories:
+    - category: News &amp; Politics
+  image: 'http://giant-pepper.cloudvent.net/img/podcast.jpg'
+  subtitle: 'Learn all the tips, tricks and more for buyers and sellers in the San Francisco Area Real Estate Market'
+  description: 'If you are looking to buy or sell a home, get all the information and the latest updates, tips, and tricks from Durwin Homes Group - your professional San Francisco Real Estate Agents.'
+  keywords: Real Estate for sale, Real Estate agents, top real estate agents, local real estate agents, find a real estate agent, houses for sale in San Francisco, home selling tips, home for sale, home buying, home buying process, property finder, property search, property, real estate market, estate agent, realestate, real estate listings, buying a house, homes for sale, mls, home buyer
+  author: Durwin Cheung
 
 #layout options
 sidecolumn: true
