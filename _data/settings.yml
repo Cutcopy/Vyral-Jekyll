@@ -38,10 +38,10 @@ body_font:
     - fantasy
 #fonts
 header_font:
-    - helvetica, sans-serif
-    - georgia, serif
-    - courier, mono
-    - fantasy
+    - helvetica: helvetica, arial, sans-serif
+    - georgia: georgia, serif
+    - courier: courier, mono
+    - fantasy: fantasy
 
 #colors
 brand_color_hex: '#dd6b00'
