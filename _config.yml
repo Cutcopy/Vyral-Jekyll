@@ -10,7 +10,18 @@ keywords: Junk, Culture, spit, steel
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://giant-pepper.cloudvent.net" # the base hostname & protocol for your site
 
-
+#fonts
+body_font:
+    - helvetica, sans-serif
+    - georgia, serif
+    - courier, mono
+    - fantasy
+#fonts
+header_font:
+    - helvetica, sans-serif
+    - georgia, serif
+    - courier, mono
+    - fantasy
 
 #Handling Reading
 encoding: "utf-8"

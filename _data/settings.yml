@@ -30,18 +30,6 @@ socials:
 hero_image_path: /img/Chicago_downtown.jpg
 hero_logo_path: /img/Durwin_logo_white.png
 client_photo_path: 'http://fillmurray.com/300/300'
-#fonts
-body_font:
-    - helvetica, sans-serif
-    - georgia, serif
-    - courier, mono
-    - fantasy
-#fonts
-header_font:
-    - helvetica, sans-serif
-    - georgia, serif
-    - courier, mono
-    - fantasy
 
 #colors
 brand_color_hex: '#dd6b00'
