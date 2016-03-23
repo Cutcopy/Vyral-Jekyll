@@ -37,10 +37,11 @@ body_font:
     - courier, mono
     - fantasy
 #fonts
-styles:
-  - Red
-  - Blue
-  - Green
+header_font:
+    - helvetica, sans-serif
+    - georgia, serif
+    - courier, mono
+    - fantasy
 
 #colors
 brand_color_hex: '#dd6b00'
