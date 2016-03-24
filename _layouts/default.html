@@ -4,6 +4,19 @@
   {% include head.html %}
 
   <body>
+    {% if site.data.settings.helperheader == true %}
+    <header class="warning">
+      <div class="container">
+        <div class="row">
+          <div class="col col--12-of-12">
+            {% if site.data.settings.client.homeeval == '#' %}
+              <p>Needs Home Eval Link</p>
+            {% endif%}
+          </div>
+        </div>
+      </div>
+    </header>
+    {% endif %}
     {% include nav.html %}
     {% include header.html %}
     <div class="container">
@@ -13,8 +26,9 @@
       </main>
 
     </div> <!-- container -->
-    {% include footer.html %}
-  </body>
 
+    {% include footer.html %}
+
+  </body>
 
 </html>

@@ -1,27 +1,44 @@
 <footer>
-  <div class="row">
-    <div class="col col--4-of-12">
-      <strong>{{site.data.settings.client.name}}</strong>
-      <br> {{site.data.settings.client.company}}
-      <address>{{ site.data.settings.client.address }}</address>
-    </div>
+  <div class="container footer-wrapper">
+    <div class="row">
+      <div class="col col--4-of-12 contact-info">
+        <strong itemprop="founder">{{site.data.settings.client.name}}</strong>
+        <br>
+        <span itemprop="brand">{{site.data.settings.client.company}}
+        <br>
+        <span itemprop="branchof">{{site.data.settings.client.brokerage}}</span>
+        <address>{{ site.data.settings.client.address }}</address>
+      </div>
 
-    <div class="col col--4-of-12">
-      <i class="fa fa-phone"></i><a href="tel:{{site.data.settings.client.phone}}">{{site.data.settings.client.phone}}</a>
-      <br>
-      <i class="fa fa-envelope"></i><a href="mailto:{{site.data.settings.client.email}}">{{site.data.settings.client.email}}</a>
-      <br>
-      <i class="fa fa-globe"></i><a href="{{site.data.settings.client.url | prepend: 'http://''}}">{{site.data.settings.client.url}}</a>
-    </div>
+      <div class="col col--4-of-12 contact-links">
+        <p>
+          <i class="fa fa-phone"></i><a href="tel:{{site.data.settings.client.phone}}">{{site.data.settings.client.phone}}</a>
+        </p>
+        <p>
+          <i class="fa fa-envelope"></i><a href="mailto:{{site.data.settings.client.email}}">{{site.data.settings.client.email}}</a>
+        </p>
+        <p>
+          <i class="fa fa-globe"></i><a href="{{site.data.settings.client.url}}">{{site.data.settings.client.url}}</a>
+        </p>
+      </div>
 
-    <div class="col col--4-of-12">
-      <form action="#">
-        <input type="text">
-        <input type="submit">
-      </form>
+      <div class="col col--4-of-12 footer-newsletter">
+        <strong>Sign Up For Our Newsletter</strong>
+        <p>Get up-to-date Real Estate news &amp; tips every month.</p>
+        <form action="{{site.data.settings.VR_form}}" method="post" id="footer-opt-in">
+          <input type="email" required>
+          <input type="submit" value="submit">
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col--12-of-12 attribution">
+        <p>Proudly Brought To You By &copy; 2016 Vyral Marketing</p>
+      </div>
     </div>
   </div>
+
 </footer>
-&copy; 2016 Vyral Marketing
+
 <script type="text/javascript" src="/js/jquery.min.js"></script>
 <script type="text/javascript" src="/js/script.js"></script>

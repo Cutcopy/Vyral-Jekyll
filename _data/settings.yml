@@ -2,12 +2,12 @@ client:
   market: Chicago
   name: Joe Somebody
   company: Castle Greyskull
-  Brokerage: Keller Williams Realty
+  brokerage: Keller Williams Realty
   address: '123 Fake St. Eternia, NE'
   phone: 1-234-567-8910
   email: someone@email.com
   url: getvyral.com
-  eval: '#'
+  homeeval: '#'
   search: '#'
 
 VR_form: '#'
@@ -46,3 +46,4 @@ podcast:
 
 #layout options
 sidecolumn: true
+helperheader: false
