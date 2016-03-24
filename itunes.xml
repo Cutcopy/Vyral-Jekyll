@@ -2,7 +2,7 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed" version="2.0">
   <channel>
     <title>{{site.data.settings.podcast.title}}</title>
     <link>{{site.url}}</link>
@@ -25,9 +25,7 @@ layout: null
     <itunes:keywords>{{site.data.settings.podcast.keywords}}</itunes:keywords>
     <itunes:subtitle>{{site.data.settings.podcast.subtitle}}</itunes:subtitle>
     <itunes:summary>{{site.data.settings.podcast.description}}</itunes:summary>
-    {% for item in site.data.settings.podcast.categories %}
-      <itunes:category text="{{site.data.settings.podcast.categories.category}}"/>
-    {% endfor %}
+      <itunes:category text="News &amp; Politics"/>
     {% for post in site.posts %}
       <item>
         <title>{{post.title}}</title>
