@@ -3,8 +3,8 @@ layout: post
 title: "Where we're going, we don't need roads."
 date: 2016-03-25T08:00:00.000Z
 tags: 'Mulagen, Molly Mullegen, Macho Man'
-excerpt: "Happy New Year and 2016! A lot of great things are happening around us. **This year, our office teamed up with Rob Ross and in fact, he moved to Keller Williams Santa Cruz. Rob and I have been colleagues as accomplished Realtors for quite some time.** Many of our buyers in Santa Cruz come from the Silicon Valley."
-enclosure: 'Happy New Year and 2016! A lot of great things are happening around us. This year, our office teamed up with Rob Ross and in fact, he moved to Keller Williams Santa Cruz. Rob and I have been colleagues as accomplished Realtors for quite some time. Many of our buyers in Santa Cruz come from the Silicon Valley.'
+excerpt: 'Happy New Year and 2016! A lot of great things are happening around us. This year, our office teamed up with Rob Ross and in fact, he moved to Keller Williams Santa Cruz. Rob and I have been colleagues as accomplished Realtors for quite some time. Many of our buyers in Santa Cruz come from the Silicon Valley.'
+enclosure: 'https://s3.amazonaws.com/vyralmarketing/Adam+Briley/How+to+Get+the+Best+Value+for+Your+Home.mp4'
 enclosure_type: video/mp4
 enclosure_time:
 image: /img/dejalett_ss1218_email.jpg
