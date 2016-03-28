@@ -9,7 +9,7 @@ tags:
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 enclosure:
 enclosure_time:
-image: /img/durwin_scn_sht.png
+image: /img/Durwin_scn_sht.png
 ---
 
 

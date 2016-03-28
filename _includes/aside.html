@@ -23,14 +23,14 @@
 
   <!-- Contact Form -->
   <form id="contact-form" method="post" action="http://vyralmarketing.com/staticforms/sendEmail.php" onsubmit="return setReturn()">
-  <input type="hidden" value="{{site.data.settings.client.email}}" name="emailTo" />
+  <input name="_to" value="{{site.data.settings.client.email}}" type="hidden">
   <p id="thanks"></p>
   <div class="contact-info">
   <input placeholder="Name*" type="text" name="name" required />
   <input placeholder="Email*" type="Email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required />
   </div>
   <textarea placeholder="Message*" name="message" required></textarea>
-  <input type="submit" value="Ask" name="submitContact" />
+  <input type="submit" value="Submit" name="submitContact" />
   </form>
   <script>
   function setReturn(){
