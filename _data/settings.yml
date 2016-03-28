@@ -18,15 +18,15 @@ navigation:
   - title: Contact
     url: /contact.html
 socials:
-  facebook: 'http://facebook.com'
-  linkedin: 'http://linkedin.com'
-  gplus: 'http://plus.google.com'
-  youtube: 'http://youtube.com'
-  twitter: 'https://twitter.com/losslessdesign'
-  yelp: 'http://yelp.com'
-  zillow: 'http://zillow.com'
-  trulia: 'http://trulia.com'
-  podcast: 'http://itunes.com'
+  facebook: '#'
+  linkedin: '#'
+  gplus: '#'
+  youtube: '#'
+  twitter: '#'
+  yelp: '#'
+  zillow: '#'
+  trulia: '#'
+  podcast: '#'
 hero_image_path: /img/Chicago_downtown.jpg
 hero_logo_path: /img/Durwin_logo_white.png
 client_photo_path: 'http://fillmurray.com/300/300'
@@ -45,5 +45,5 @@ podcast:
   author: Durwin Cheung
 
 #layout options
-sidecolumn: true
+sidecolumn: false
 helperheader: false
