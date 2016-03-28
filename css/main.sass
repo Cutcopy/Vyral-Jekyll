@@ -13,9 +13,9 @@ $border-radius: 5px
 $nav-height: 1rem
 
 //fonts
-$bodyfont: 'Lato', helvetica, arial, sans-serif
-$headerfont: 'Oswald', helvetica, arial, sans-serif
-
+$bodyfont: 'Source Sans Pro', helvetica, arial, sans-serif
+$headerfont: 'Source Sans Pro', helvetica, arial, sans-serif
+$bodycolor: #252525
 //colors
 
 $brand: {{site.data.settings.brand_color_hex}}
@@ -31,14 +31,17 @@ $hf-text-color: white
   box-shadow: 0px 2px 3px black
 @mixin text-shadow
   text-shadow: 0 2px 4px black
+@mixin border-radius
+  border-radius: 5px
 @mixin timing
   -webkit-transition: 0.3s
   transition: 0.3s
 
+
 @mixin size($n)
   height: $n
   width: $n
-
+@import "normalize"
 @import "base"
 @import "toast"
 @import "nav"

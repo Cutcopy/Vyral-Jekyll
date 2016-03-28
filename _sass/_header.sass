@@ -7,7 +7,7 @@
   background-size: cover
   background-repeat: no-repeat
   background-attachment: fixed
-  padding: 2rem
+  padding-top: 2rem
   color: white
   text-align: center
   font-size: 2rem
@@ -37,12 +37,20 @@
 .cta-wrapper
   position: absolute
   bottom: 0
+  width: 100%
+
+.cta-flex
+  display: flex
+  justify-content: center
+  align-items: stretch
+  align-content: stretch
+  flex-grow: 1
 
 .cta
   background: $transparent-black
   font-size: 1rem
   text-align: center
-  max-width: 33%
+  flex-grow: 1
   a
     color: white
     &:visited
@@ -104,4 +112,4 @@
 
 .warning
   background: red
-  color: white  
+  color: white

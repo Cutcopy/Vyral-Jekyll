@@ -29,7 +29,7 @@ socials:
   podcast: '#'
 hero_image_path: /img/Chicago_downtown.jpg
 hero_logo_path: /img/Durwin_logo_white.png
-client_photo_path: 'http://fillmurray.com/300/300'
+client_photo_path: 'http://fillmurray.com/400/200'
 
 #colors
 brand_color_hex: '#dd6b00'
@@ -45,5 +45,5 @@ podcast:
   author: Durwin Cheung
 
 #layout options
-sidecolumn: false
+sidecolumn: true
 helperheader: false

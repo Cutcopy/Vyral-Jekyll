@@ -1,6 +1,6 @@
 <aside class="col col--4-of-12">
   <h2>About</h2>
-  <div class="headshot" style="background-image: url({{site.data.settings.client_photo_path}})"></div>
+  <div class="headshot-rect" style="background-image: url({{site.data.settings.client_photo_path}})"></div>
   <p class="editable"><strong>My Big Fat Greek wedding </strong>was an okay, and mostly enjoyable movie. I've seen it once at the request of my girlfriend of the time. I don't know why it popped into my head, I assume it's because it's a funny name, and I'm being random as I type this out.</p>
   <p class="editable">Voluptate sapiente, ipsum illo deleniti dolor, reprehenderit beatae officia eos et consectetur cumque veritatis deserunt. Quos autem sequi veritatis vitae fuga dolores quae quaerat neque maxime asperiores, eveniet velit odit.</p>
  <div class="review-wrapper">
@@ -25,10 +25,8 @@
   <form id="contact-form" method="post" action="http://vyralmarketing.com/staticforms/sendEmail.php" onsubmit="return setReturn()">
   <input name="_to" value="{{site.data.settings.client.email}}" type="hidden">
   <p id="thanks"></p>
-  <div class="contact-info">
   <input placeholder="Name*" type="text" name="name" required />
   <input placeholder="Email*" type="Email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required />
-  </div>
   <textarea placeholder="Message*" name="message" required></textarea>
   <input type="submit" value="Submit" name="submitContact" />
   </form>
