@@ -45,5 +45,5 @@ podcast:
   author: Durwin Cheung
 
 #layout options
-sidecolumn: true
+sidecolumn: false
 helperheader: false

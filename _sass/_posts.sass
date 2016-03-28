@@ -1,14 +1,19 @@
+main
+  position: relative
+  bottom: 5rem
+  background: white
+  border-radius: 5px 5px
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.2)
+
 .post-list
   list-style-type: none
   padding-left: 0
   li
     background: white
     margin: 1rem 0
-    @include timing
     max-width: 80rem
     margin-bottom: 2rem
-    &:hover
-      box-shadow: 0 5px 18px $transparent-black
+
 
 .post-wrapper
   text-align: center
@@ -16,6 +21,11 @@
   border: 1px solid grey
   overflow: hidden
   max-width: 1000px
+  margin: 0 auto
+  @include timing
+  &:hover
+    box-shadow: 0 5px 18px $transparent-black
+
 
 .post-meta
   background: $brand
