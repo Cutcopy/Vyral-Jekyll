@@ -8,7 +8,7 @@ tags:
 excerpt:
 enclosure:
 pullquote: 'Junk Culture, is perhaps more astute than previously thought.'
-youtube_link: 'https://youtu.be/O83PiOYF-e4'
+youtube_link: 'https://youtu.be/embed/O83PiOYF-e4'
 enclosure_type: video/mp4
 enclosure_time:
 image: /img/omaha.jpg
