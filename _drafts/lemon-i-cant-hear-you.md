@@ -10,11 +10,18 @@ tags:
   - Home Seller Tips
 excerpt:
 enclosure:
-pullquote:
-youtube_link:
+pullquote: "Lemon I can't Hear You!"
+youtube_link: 'https://youtu.be/O83PiOYF-e4'
 enclosure_type: video/mp4
 enclosure_time:
-image:
+image: /img/roger-dean.jpg
 ---
+
+
 <iframe id="video" width="652" height="367" src="{{page.youtube}}" frameborder="0" allowfullscreen=""></iframe>
-<a href="https://twitter.com/home/?status={{page.pullquote}}%20{{site.url}}{{page.url}}%20via%40{{site.data.settings.socials.twitter | remove: 'https://twitter.com/'}}" target='_blank' class="pullquote">&#8220;{{page.pullquote}}&#8221;</a>
+
+&nbsp;
+
+&nbsp;
+
+[“{{page.pullquote}}”](https://twitter.com/home/?status={{page.pullquote}}%20{{site.url}}{{page.url}}%20via%40{{site.data.settings.socials.twitter | remove: 'https://twitter.com/'}}){: .pullquote}
