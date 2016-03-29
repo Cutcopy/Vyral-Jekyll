@@ -20,7 +20,7 @@ socials:
   linkedin: '#'
   gplus: '#'
   youtube: '#'
-  twitter: '#'
+  twitter: 'https://twitter.com/losslessdesign'
   yelp: '#'
   zillow: '#'
   trulia: '#'
@@ -41,5 +41,5 @@ podcast:
   author: Durwin Cheung
 
 #layout options
-sidecolumn: false
+sidecolumn: true
 helperheader: false

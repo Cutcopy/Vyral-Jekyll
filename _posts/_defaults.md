@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  
+title:
+category: blog  
 date:   
-tags:
+tags: []
 excerpt:
 enclosure:
 enclosure_type: video/mp4

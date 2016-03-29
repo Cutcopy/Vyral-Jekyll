@@ -4,12 +4,16 @@
     <div class="banner col col--12-of-12">
       <a href="{{site.url}}">
         <img src="{{site.data.settings.hero_logo_path}}" alt="{{site.data.settings.client.company}}" class="hero-logo">
-        <h1 class="editable">{{site.title}}</h1>
+        {% if layout == default %}
+        <h1 class="site-title">{{site.title}}</h1>
+        {% else %}
+        <h2 class="site-title">{{page.title}}</h2>
+        {% endif %}
+      </a>
         <div class="btn wrapper">
           <a href="{{site.data.settings.client.eval}}" class="header-button">Home Evaluation</a>
           <a href="{{site.data.settings.client.eval}}" class="header-button Search">Home Search</a>
         </div>
-      </a>
     </div>
   </div>
 </div> <!-- container -->

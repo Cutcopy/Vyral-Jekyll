@@ -12,16 +12,18 @@ layout: default
       {% for post in site.posts %}
       <li>
         <div class="post-wrapper">
+          <a href="{{post.url}}">
             {% if post.image %}
-            <img src="{{post.image}}" alt="" class="post-image" />
+            <img src="{{post.image}}" alt="{{post.title}}" class="post-image" />
             {% else %}
-            <img src="/img/vyral-icon.png" alt="" class="post-image" />
+            <img src="/img/vyral-icon.png" alt="{{post.title}}" class="post-image" />
             {% endif %}
+          </a>
           <div class="row">
             <div class="col col--12-of-12">
               <div class="post-top">
               <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
-                <h2 class="post-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | truncate: 70 }}</a></h2>
+                <h2 class="post-title"><a class="post-link" href="{{ post.url | prepend: site.url }}">{{ post.title | truncate: 70 }}</a></h2>
               </div>
               {{ post.excerpt | strip_html | prepend: "<p class='excerpt'>" | append: "<p>" }}
                 <p><a href="{{post.url}}" class="readmore">Read More</a></p>
