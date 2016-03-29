@@ -2,7 +2,7 @@
 layout: post
 title: "Lemon, I can't hear you"
 category: blog
-date:
+date: 2016-03-29T00:00:00.000Z
 tags:
   - Market Update
   - Real Estate
