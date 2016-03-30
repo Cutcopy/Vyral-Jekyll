@@ -2,7 +2,7 @@
 layout: post
 title:
 category: blog  
-date:   
+date:
 tags:
   - Market Update
   - Real Estate
