@@ -30,6 +30,14 @@
           <input type="submit" value="submit">
         </form>
       </div>
+      <ul class="col col--5-of-12 socials">
+        <li><a href="{{site.data.settings.socials.facebook}}">{% include icon-facebook.svg%}</a></li>
+        <li><a href="{{site.data.settings.socials.linkedin}}">{% include icon-linkedin.svg%}</a></li>
+        <li><a href="{{site.data.settings.socials.gplus}}">{% include icon-gplus.svg%}</i></a></li>
+        <li><a href="{{site.data.settings.socials.youtube}}">{% include icon-youtube.svg%}</i></a></li>
+        <li><a href="{{site.data.settings.socials.twitter}}">{% include icon-twitter.svg%}</a></li>
+        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">{% include icon-rss.svg%}</a></li>
+      </ul>
     </div>
     <div class="row">
       <div class="col col--12-of-12 attribution">
